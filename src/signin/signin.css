@@ -1,0 +1,303 @@
+.modalBackground {
+  width: 100vw;
+  height: 100vh;
+  z-index: 1091;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(49, 49, 49, 0.8);
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modals {
+  width: 532px;
+  height: 710px;
+  border-radius: 40px;
+  margin-top: 4cm;
+  margin-bottom: 4cm;
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  display: flex;
+  flex-direction: column;
+  padding: 25px;
+}
+.fa {
+  padding: 10px;
+  font-size: 20px;
+  font-weight: bolder;
+  height: 40px;
+  width: 318px;
+  text-decoration: none;
+  align-self: center;
+  align-items: center;
+}
+.abc {
+  border-radius: 0%;
+}
+
+/* Add a hover effect if you want */
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
+  background: #3b5998;
+  color: white;
+  align-self: center;
+}
+.modalContainer .title {
+  display: inline-block;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.titleCloseBtn {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.titleCloseBtn button {
+  background-color: transparent;
+  border: none;
+  font-size: 35px;
+  cursor: pointer;
+}
+
+.modalContainer .body {
+  flex: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.7rem;
+  text-align: center;
+}
+
+.modalContainer .footer {
+  flex: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modalContainer .footer button {
+  width: 150px;
+  height: 45px;
+  margin: 10px;
+  border: none;
+  background-color: rgb(233, 46, 46);
+  color: white;
+  border-radius: 8px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+#cancelBtn {
+  background-color: crimson;
+}
+.btn-google {
+  margin-top: 10px;
+  color: rgb(0, 0, 0);
+  background-color: #ece1e1;
+  border-color: #08080814;
+  border-radius: 30px;
+  transition-duration: 00.3s;
+}
+.btn-google :hover {
+  margin-top: 10px;
+  color: rgb(0, 0, 0);
+  background-color: #e3e6ed;
+  border-color: #08080814;
+  border-radius: 30px;
+}
+.btn-facebook {
+  color: #fff;
+  background-color: #4267b2;
+  border-color: #3b5c9f;
+  border-radius: 30px;
+}
+.btn-facebook :hover {
+  color: #fff;
+  background-color: #5f93fb;
+  border-color: #3b5c9f;
+  border-radius: 30px;
+}
+
+.btn-freelancer {
+  background: #ed0000;
+  border: #007fed;
+  border-radius: 30px;
+
+  color: #f7f7f7;
+}
+.btn-freelancer:hover {
+  background: #ff0101;
+  border: #007fed;
+  border-radius: 30px;
+
+  color: #f7f7f7;
+}
+.btn-free {
+  position: relative;
+  height: 54px;
+  flex-basis: 10%;
+  width: 320px;
+  padding-left: 44px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+.btn-font {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: 650;
+  font-size: 21px;
+  line-height: 1.4;
+  padding: 8px 22px;
+  align-items: center;
+}
+.btn-font1 {
+  width: 320px;
+  font-size: 15px;
+  line-height: 1.43;
+  font-weight: 400;
+  text-align: center;
+  color: #000000;
+}
+.btn-font2 {
+  width: 320px;
+  font-size: 20px;
+  line-height: 1.43;
+  font-weight: 400;
+  text-align: center;
+  color: #000000;
+}
+.btn-social {
+  position: relative;
+  height: 40px;
+  flex-basis: 10%;
+  width: 318px;
+  padding-left: 44px;
+  text-align: center;
+  white-space: nowrap;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+}
+.h5 {
+  font-size: 20px;
+}
+.hr-sect {
+  display: flex;
+  align-items: baseline;
+  color: rgba(1, 1, 1, 1);
+  font-weight: 650;
+  font-size: 20px;
+  margin-top: -10px;
+  margin-bottom: 10px;
+}
+.hr-sect::before,
+.hr-sect::after {
+  content: "";
+  flex-grow: 1;
+  height: 1px;
+  font-size: 0px;
+}
+.btn-social :first-child {
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  width: 40px;
+  padding: 7px;
+  font-size: 1.8em;
+  text-align: center;
+  align-self: center;
+}
+.logo {
+  display: flex;
+  align-items: center;
+  fill: currentColor;
+  stroke-width: 0;
+  color: #c00;
+  overflow: hidden;
+}
+.imgs {
+  margin-left: 30px;
+  width: 40px;
+  height: 40px;
+}
+.welcome {
+  margin-top: 5px;
+  margin-bottom: 10px;
+  font-size: 43px;
+  font-weight: 500;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  word-break: break-word;
+  padding-left: 16px;
+  padding-right: 16px;
+  letter-spacing: -1.2px;
+  align-items: center;
+  display: block;
+  justify-content: center;
+  text-align: center;
+  color: #000000d7;
+}
+.fields {
+  margin-top: 7px;
+  width: 365px;
+  height: 65px;
+  border-color: #cdcdcd;
+  padding: 8px 16px;
+  border-radius: 16px;
+  border-style: solid;
+  border-width: 2px;
+  background-color: #fff;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  box-sizing: border-box;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen-Sans,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, Helvetica,
+    ãƒ’ãƒ©ã‚®ãƒŽè§’ã‚´ Pro W3, Hiragino Kaku Gothic Pro, ãƒ¡ã‚¤ãƒªã‚ª, Meiryo,
+    ï¼­ï¼³ ï¼°ã‚´ã‚·ãƒƒã‚¯, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji,
+    Segoe UI Symbol;
+  min-height: 48px;
+}
+
+.fields:hover {
+  width: 365px;
+  height: 65px;
+  border-radius: 20px;
+  border-color: rgba(0, 0, 0, 0.764);
+}
+.forgot {
+  font-size: 18px;
+  font-weight: 600;
+  color: #000000;
+  text-decoration: none;
+  margin-bottom: 20px;
+}
+.forgot:hover {
+  font-size: 18px;
+  font-weight: 600;
+  color: #000000;
+  text-decoration: underline;
+}
+.container {
+  margin-bottom: 10px;
+}
+
+.bottomtext {
+  display: inline;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  align-self: center;
+  padding-top: 2%;
+  font-size: 15px;
+  width: 440px;
+  height: 150px;
+}

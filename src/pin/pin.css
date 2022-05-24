@@ -1,0 +1,116 @@
+.card {
+  height: 100%;
+  width: 100%;
+  border-radius: 18px;
+  overflow: hidden;
+  margin-left: 10px;
+  margin-top: 0px;
+}
+.pin {
+  padding: 6px;
+  display: inline-flex;
+  margin-top: 0px;
+}
+
+.pin__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-sizing: border-box;
+  cursor: pointer;
+  width: 236px;
+}
+
+.pin_title {
+  width: 0;
+  height: 0;
+  opacity: 0;
+}
+
+.pin_modal {
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  transition-duration: 0.3s;
+  background-color: rgba(0, 0, 0, 0.1);
+  cursor: zoom-in;
+}
+.pin_modal:hover {
+  opacity: 1;
+}
+.pin_modal .modal_header {
+  width: 100%;
+  height: 15%;
+  position: fixed;
+  top: 0;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.pin_modal .modal_footer {
+  width: 100%;
+  height: 15%;
+  position: fixed;
+  bottom: 10px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.pin_modal .mock_icon_container {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  display: flex;
+  flex-shrink: 0;
+  justify-content: center;
+  align-items: center;
+  background-color: #f0f0f0;
+  cursor: pointer;
+}
+.pin_mock_icon {
+  width: 50%;
+}
+
+.pin_modal .modal_header .save_card {
+  margin-right: 20px;
+  width: 53px;
+  height: 40px;
+  border-radius: 22px;
+  margin-top: 10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px;
+  font-weight: 700;
+  color: white;
+  background-color: #e60023;
+  cursor: pointer;
+}
+.pin_modal .modal_footer .destination {
+  width: 132px;
+  height: 32px;
+  display: flex;
+  align-items: center;
+  font-weight: 700;
+  font-size: 16px;
+  border-radius: 18px;
+  background-color: #f0f0f0;
+  cursor: pointer;
+}
+
+.pin_modal .modal_footer .destination span {
+  overflow: hidden;
+}
+
+.pin_image {
+  width: 100%;
+  height: 100%;
+}
+.pin_image img {
+  width: 100%;
+}

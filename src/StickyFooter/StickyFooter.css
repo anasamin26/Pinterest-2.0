@@ -1,0 +1,18 @@
+.footer {
+    position: fixed;
+    width: 100%;
+    left:0;
+    bottom: 0;
+    background-color: white;
+    box-shadow: 0 0 10px #ccc;
+}
+
+.btn-align{
+    margin-left: 50%;
+}
+
+@media screen and (max-width: 273px) {
+    .btn-align{
+        margin-left: 5%;
+    }
+  }

@@ -1,0 +1,121 @@
+.back {
+  background-image: url("/src/Mainpage/1.webp");
+  height: 620px;
+  margin-top: 20px;
+}
+.abc {
+  margin: 2px;
+  font-size: 60px;
+  font-weight: 600;
+  box-sizing: border-box;
+  align-items: center;
+  display: block;
+  justify-content: center;
+  align-self: center;
+  text-align: center;
+  text-shadow: rgb(225, 225, 225);
+}
+
+.def {
+  font-size: 60px;
+  margin: 0px;
+  font-weight: 600;
+  position: absolute;
+  text-align: center;
+  width: 100%;
+  left: 0px;
+  color: rgb(194, 139, 0);
+  transform: translateY(-40px);
+  opacity: 1;
+  margin-top: -100px;
+  z-index: 2;
+}
+.def1 {
+  font-size: 60px;
+  margin: 0px;
+  font-weight: 600;
+  position: absolute;
+  text-align: center;
+  width: 100%;
+  left: 0px;
+  color: rgb(97, 140, 123);
+  transform: translateY(-40px);
+  margin-top: -100px;
+  opacity: 1;
+  z-index: 2;
+}
+.def2 {
+  font-size: 60px;
+  margin: 0px;
+  font-weight: 600;
+  position: absolute;
+  text-align: center;
+  width: 100%;
+  left: 0px;
+  color: rgb(0, 118, 211);
+  transform: translateY(-63.8873px);
+  margin-top: -77px;
+  opacity: 1;
+  z-index: 2;
+}
+.def3 {
+  font-size: 60px;
+  margin: 0px;
+  font-weight: 600;
+  position: absolute;
+  text-align: center;
+  width: 100%;
+  left: 0px;
+  color: rgb(64, 122, 87);
+  transform: translateY(-40px);
+  margin-top: -100px;
+  opacity: 1;
+  z-index: 2;
+}
+.uls {
+  display: flex;
+  margin-block-start: 100px;
+  justify-content: center;
+  text-decoration: none;
+  color: transparent;
+}
+.b1 {
+  background: rgb(194, 139, 0);
+  display: inline-block;
+  padding: 5px;
+  height: 10px;
+  border-radius: 50px;
+  margin: 6px;
+  outline: none;
+  border-style: none;
+}
+.b2 {
+  background: rgb(225, 225, 225);
+  display: inline-block;
+  padding: 5px;
+  height: 10px;
+  border-radius: 50px;
+  margin: 6px;
+  outline: none;
+  border-style: none;
+}
+.b3 {
+  background: rgb(225, 225, 225);
+  display: inline-block;
+  padding: 5px;
+  height: 10px;
+  border-radius: 50px;
+  margin: 6px;
+  outline: none;
+  border-style: none;
+}
+.b4 {
+  background: rgb(225, 225, 225);
+  display: inline-block;
+  padding: 5px;
+  height: 10px;
+  border-radius: 50px;
+  margin: 6px;
+  outline: none;
+  border-style: none;
+}

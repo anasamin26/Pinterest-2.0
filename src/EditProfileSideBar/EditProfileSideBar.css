@@ -1,0 +1,14 @@
+
+.underline .active{
+    border-bottom: 3px solid black;
+}
+
+.sidebar-btn{
+    border: 0;
+    background-color: white;
+    font-size: 17px;
+    font-weight: bold;
+    color: black;
+    width: fit-content;
+    padding: 0px;
+}

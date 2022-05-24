@@ -1,0 +1,84 @@
+.navbar {
+  display: flex;
+  align-items: center;
+}
+.c8S {
+  font-size: 22px;
+  color: #c00;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+  margin-left: 2px;
+}
+.form-inline {
+  display: flex;
+}
+.save_card {
+  margin-right: 20px;
+  width: 130px;
+  height: 60px;
+  border-radius: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 19px;
+  font-weight: 700;
+  color: white;
+  background-color: #e60023;
+  cursor: pointer;
+}
+.save_card:hover {
+  margin-right: 20px;
+  width: 130px;
+  height: 60px;
+  border-radius: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 19px;
+  font-weight: 700;
+  color: white;
+  background-color: #d2344c;
+  cursor: pointer;
+}
+.sign_up {
+  margin-right: 20px;
+  width: 130px;
+  height: 60px;
+  border-radius: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 19px;
+  font-weight: 700;
+  color: rgba(20, 20, 20, 0.868);
+  background-color: #e6e6e6;
+  cursor: pointer;
+}
+.sign_up:hover {
+  margin-right: 20px;
+  width: 130px;
+  height: 60px;
+  border-radius: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 19px;
+  font-weight: 700;
+  color: rgba(20, 20, 20, 0.668);
+  background-color: #8d8686;
+  cursor: pointer;
+}
+.logo {
+  display: flex;
+  align-items: center;
+  fill: currentColor;
+  stroke-width: 0;
+  color: #c00;
+  overflow: hidden;
+}
+.imgs {
+  margin-left: 30px;
+  width: 40px;
+  height: 40px;
+}

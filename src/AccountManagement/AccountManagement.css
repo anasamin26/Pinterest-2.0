@@ -1,0 +1,35 @@
+.edit-container{
+    width:50%;
+}
+.input-fields{
+    border-radius: 14px;
+    border-width: 2px;
+}
+
+.deactive-btn{
+    border-radius: 20px;
+    background-color: #f0ecec;
+    height: 50px;
+}
+
+.deactive-btn:hover{
+    background-color: #dddcdc;
+}
+
+.flex-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+@media screen and (max-width: 780px) {
+    .edit-container{
+        width:100%;
+    } 
+  }
+
+  @media screen and (max-width: 434px) {
+    .flex-container{
+        flex-direction: column;
+    }
+  }
